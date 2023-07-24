@@ -1,6 +1,14 @@
-# My Rough Setup Notes For 1.14.1
+# Barebones Unity Project Template for Unity 2021.3.17f1 & Entitas 1.14.1
 
-- Only setup and tested with dotnet Jenny/Jenny.Generator.Cli.dll commands.
+How to Generate:
+
+Open CMD or PowerShell from the root of the unity project then
+CMD: dotnet Jenny/Jenny.Generator.Cli.dll gen
+Powershell/Linux: dotnet .\Jenny\Jenny.Generator.Cli.dll gen
+
+
+## Setup Steps For 1.14.1
+
 
 1. Downloaded the Entitas release 1.14.1 Entitas.zip and Jenny.zip.
 Unzipped Entitas, Removed the internal Jenny folder, moved the Entitas folder to my Unity Assets directroy.
@@ -20,6 +28,6 @@ Unzipped Entitas, Removed the internal Jenny folder, moved the Entitas folder to
 - \working-barebones-entitas\unity-entitas> dotnet Jenny/Jenny.Generator.Cli.dll gen
 - \working-barebones-entitas\unity-entitas> dotnet Jenny/Jenny.Generator.Cli.dll help
 
--v really helped. :)
+
 
 
